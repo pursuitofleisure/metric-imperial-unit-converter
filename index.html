@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Unit Converter by Diana Le</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+   <main>
+      <section class="conversion">
+         <div class="conversion__input">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input type="number" id="unit-input" placeholder="0">
+            <p id="error"></p>
+         </div>
+         <div class="conversion__output">
+            <section>
+               <h2>Length (Meter/Feet)</h2>
+               <p id="conversion__length">0 meters = 0.000 feet | 0 feet = 0.000 meters</p>
+            </section>
+            <section>
+               <h2>Volume (Liters/Gallons)</h2>
+               <p id="conversion__volume">0 liters = 0.000 gallons | 0 gallons = 0.000 liters</p>
+            </section>
+            <section>
+               <h2>Mass (Kilograms/Pounds)</h2>
+               <p id="conversion__mass">0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos</p>
+            </section>
+         </div>
+      </section>
+
+   </main>
+   <script src="./index.js"></script>
+</body>
+
+</html>

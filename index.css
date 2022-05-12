@@ -1,0 +1,85 @@
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+   margin: 0;
+}
+
+:root {
+   --color-font: #1A1921;
+   --color-bg: #FBF7EE;
+}
+
+@media (prefers-color-scheme: dark) {
+   :root {
+      --color-font: #fff;
+      --color-bg: #1F2937;
+   }
+}
+
+body {
+   background-color: #425876;
+   font-family: 'Inter', sans-serif;
+}
+
+h1 {
+   font-size: 22px;
+   font-weight: 800;
+   margin-bottom: 16px;
+}
+
+h2 {
+   font-size: 14px;
+   font-weight: 600;
+   margin-bottom: 8px;
+}
+
+p {
+   font-size: 14px;
+   font-weight: 400;
+}
+
+.conversion {
+   width: 98%;
+   max-width: 550px;
+   margin: 24px auto 0;
+   text-align: center;
+}
+
+.conversion__input {
+   background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+   color: #fff;
+   padding: 50px;
+}
+
+#unit-input {
+   font-size: 100px;
+   font-weight: 800;
+   width: 100%;
+   background: transparent;
+   color: #fff;
+   text-align: center;
+   border: 1px solid transparent;
+}
+
+#unit-input:focus-visible {
+   outline: none !important;
+   border-color: #fff;
+}
+
+.conversion__output {
+   background-color: var(--color-bg);
+   color: var(--color-font);
+   padding: 40px;
+}
+
+.conversion__output>section {
+   margin-bottom: 27px;
+}
