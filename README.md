@@ -1,6 +1,8 @@
 # Metric/Imperial Conversion Calculator
 
-Convert length, volume and mass from metric/imperial. Created during Scrimba Front-End Developer Career Path.
+Convert length, volume and mass from metric/imperial.
+
+[View Online](https://pursuitofleisure.github.io/metric-imperial-unit-converter/)
 
 ## Built With
 * HTML
